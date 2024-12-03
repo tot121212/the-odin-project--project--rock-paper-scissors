@@ -8,7 +8,28 @@
     <script src="javascript.js" defer></script>
 </head>
 <body>
+    <!--
     <input type="text" name="Rock, Paper, Scissors" id="rpsInput" placeholder="Rock, Paper, Scissors">
     <button onclick="playRound()">Submit</button>
+    -->
+    <div class="rpsScores">
+        <div>
+            <div>Player Score:</div>
+            <div class="score" id="humanScore">0</div>
+        </div>
+        <div>
+            <div>Computer Score:</div>
+            <div class="score" id="computerScore">0</div>
+        </div>
+    </div>
+    <div class="humanSelections">
+        <button id="rock">Rock</button>
+        <button id="paper">Paper</button>
+        <button id="scissors">Scissors</button>
+    </div>
+    <div>
+        <div>Result:</div>
+        <div class="rpsResult"></div>
+    </div>
 </body>
 </html>

@@ -1,0 +1,30 @@
+body{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 16px;
+    margin: 64px;
+}
+
+div, button{
+    font-weight: lighter;
+    font-style: italic;
+    font-size: xx-large;
+    text-align: center;
+}
+
+button{
+    padding: 32px;
+}
+
+.playerSelections{
+    display: flex;
+    flex-direction: row;
+    gap: 16px;
+}
+
+.rpsScores, .rpsScores div{
+    display: flex;
+    flex-direction: row;
+    gap: 16px;
+}
